@@ -10,7 +10,7 @@ require 'Proverbes.php';
 $choix = isset($_GET['choix']) ? (int)$_GET['choix'] : "";
 
 // je crée une nouvelle instance, je base mon nouvel objet '$proverbes' sur la classe 'Proverbes()'
-// la varibale '$choix' est passée en tant que paramètre au constructeur de la classe 'Proverbes()'
+// la variable '$choix' est passée en tant que paramètre au constructeur de la classe 'Proverbes()'
 $proverbes = new Proverbes($choix);
 
 ?>
