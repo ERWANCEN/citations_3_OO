@@ -58,7 +58,7 @@ class Proverbes
      *
      * @return void
      */
-    public function getProverbe() : string
+    public function getProverbe()
     {
         echo $this->_choixAleatoireProverbe;
     }
